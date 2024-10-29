@@ -1,7 +1,5 @@
 body {
-    background: linear-gradient(to bottom, white, gray);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(static/backgound.jpg)
 }
 
 html, body {
@@ -12,31 +10,91 @@ html, body {
 
 .cardapio {
     position: absolute;
-    transform: scale(0.7);
-    top: -30px;
-    left: 43px;
+    transform: scale(0.4    );
+    top: -230px;
+    left: -155px;
     border-radius: 20px;
     animation: ada 2s;
     border-color: black;
-}
+    border: 50px;
+}   
 
 @keyframes ada {
     0% {
         opacity: 0%;
-        top: -20px;
+        top: -220px;
     }
 
     100% {
         opacity: 1;
-        top: -30px;
+        top: -230px;
     }
 }
 
 .barra {
     width: 100vw; /* Ocupa 100% da largura da viewport */
-    background-color: rgba(112, 80, 80, 0.661); /* Escolha a cor desejada */
+    background-color: rgba(169, 110, 43, 0.661); /* Escolha a cor desejada */
     margin: 0; /* Remove margens */
     padding: 10px 0; /* Ajuste o padding vertical conforme necessário */
     text-align: center; /* Centraliza o texto */
-    
+    height: 30px;
 }
+.ig {
+    transform: scale(0.11);
+    position: absolute;
+    left: -210px;
+    top: -230px;
+}
+
+.f {
+    text-align: center;
+    font-size: 34px;
+    position: absolute;
+    left: 140px;
+    top: -30px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.barra2 {
+    height: 20px;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.582);
+    position: absolute;
+    top: 665px
+}
+.cr {
+    position: absolute;
+    top: 650px;
+    left: 90px;
+}
+
+.borda {
+   border: 7px solid #000;
+   background-color: transparent;
+   padding: 20px;
+   width: 270px;
+   height: 490px;
+   border-radius: 10px;
+   position: absolute;
+   top: 90px;
+   left: 44px;
+   animation: asa 5s infinite;
+}   
+
+@keyframes asa {
+    0% {
+        border: 5px solid #000000;
+    }
+
+    50%{
+        border: 5px solid #3c3c3c;
+    }
+
+    100% {
+        border: 5px solid #000000;
+    }
+}
+
+
