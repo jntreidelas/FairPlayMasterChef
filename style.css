@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to bottom, white, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cardapio {
+    position: absolute;
+    transform: scale(0.7);
+    top: -30px;
+    left: 43px;
+    border-radius: 20px;
+    animation: ada 2s;
+    border-color: black;
+}
+
+@keyframes ada {
+    0% {
+        opacity: 0%;
+        top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        top: -30px;
+    }
+}
+
+.barra {
+    width: 100vw; /* Ocupa 100% da largura da viewport */
+    background-color: rgba(112, 80, 80, 0.661); /* Escolha a cor desejada */
+    margin: 0; /* Remove margens */
+    padding: 10px 0; /* Ajuste o padding vertical conforme necessário */
+    text-align: center; /* Centraliza o texto */
+    
+}
